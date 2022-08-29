@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri|Tajawal&subset=arabic');
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fl-right {
+    float: right; 
+}
+
+.fl-left {
+    float: left;
+}
+
+.hidden-ov-f {
+    overflow: hidden;
+}
+
+.vl {
+    border-right:  1px solid #ccc;
+    height: 700px;
+    width: 1%;
+    margin-top: 40px;
+    padding-left:  5%;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color:#f6f5f6;
+    direction: rtl;
+    text-align: right;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    font-family: 'El Messiri', sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+/* start Navbar*/
+.navbar-nav .nav-item .nav-link {
+    font-weight: bold; 
+    font-size: 18px; 
+    color: #666;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link ,
+.navbar-nav .nav-item .dropdown-item:hover {
+    color: #521fa0;
+}
+
+.anchor {
+    color: #521fa0;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px; 
+    margin-left: 13%;
+    border-radius: 50%;
+    padding: 2px 10px;
+    background-color: #f6f5f6;
+}
+
+.anchor:hover {
+    text-decoration: none;
+    color: #f8f9fa;
+    background-color: #521fa0;
+}
+
+nav img {
+    margin-right:  10%;
+    width: 40px;
+    height: 40px;
+    -webkit-transition:all 20s ease-in-out;
+    -moz-transition:all 20s ease-in-out;
+    -o-transition:all 20s ease-in-out;
+    transition:all 20s ease-in-out;
+    -webkit-transition-delay: 1s;
+    -moz-transition-delay: 1s;
+    -o-transition-delay: 1s;
+    transition-delay: 1s;
+    -webkit-perspective: 100px;
+    -moz-perspective: 100px;
+    -o-perspective: 100px;
+    perspective: 100px;
+}
+
+.animated {
+    -webkit-transform: rotateY(7200deg);
+    -moz-transform: rotateY(7200deg);
+    -o-transform: rotateY(7200deg);
+    transform: rotateY(7200deg);
+}
+
+nav .navbar-brand {
+    padding-left: 10px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+/* end Navbar */
+
+
+/* start Home page */
+/* start carousel*/
+.first-part {
+    margin-top:50px;
+}
+
+.carousel-content {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    z-index: 20;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.carousel-content-3 {
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    z-index: 20;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.carousel-content-4 {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 20;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.carousel-content-5 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 20;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+/*end carousel*/
+
+
+.sub-courses .container h2 {
+    margin:60px 0 20px 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
+}
+
+.subjects {
+    padding: 10px 0 50px 0;
+}
+
+.subjects {
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 1.7;
+    height: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+    border: 2px solid #ccc;
+    box-shadow: 3px 3px 5px #d6a8f1;
+    margin: 1% 1% 10% 1%  ;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.subjects:hover {
+color: #521fa0;
+background-color: rgba(11,51,250,.1);
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+}
+/* end subject */
+/* end Home page */
+
+
+/* start about page*/
+.about-top img { 
+    width: 100%; 
+    height: 350px; 
+}
+
+.aboutVideo { 
+    margin:0 auto ; 
+    margin-top: 70px; 
+    margin-bottom: 0 
+}
+
+.content {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+
+.content span {
+    color: #521fa0;
+    font-weight: bold;
+    font-size:20px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.content .info {
+    padding-bottom: 70px;
+}
+
+.content .info ul {
+    list-style: square;
+}
+
+.content .info ul li {
+    line-height: 1.7;
+    color:#501144;
+    font-size: 17px;
+}
+
+.content .info h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.content .info h2:nth-of-type(1) {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.content .info h2 {
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-top:50px; 
+}
+
+.content .info p {
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.content .team .item {
+    margin-bottom: 60px;
+}
+
+.content .team .item p {
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.content .team .item .image img {
+    width: 220px; 
+    height: 220px;
+    margin-bottom: 20px;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+}
+
+.content .team .item .image img:hover {
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -o-transform: scale(.8);
+    transform: scale(.8);
+}
+
+.content .team .item .text h2 {
+    font-weight: bold;
+}
+/* end about page*/
+
+
+/* start courses pages */
+.web-design {
+    margin-top: 100px;
+    margin-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.web-design .search-item {
+    text-align: center;
+}
+
+.web-design .search-item h3 {
+    padding-bottom: 20px;
+    padding-right: 3%;
+    display: inline-block;
+    font-weight: bold; 
+}
+
+.web-design .search-item form {
+    display: inline-block;
+}
+
+.web-design .search-item form input[type="search"] {
+    width: 400px;
+    background-color: #f8f9fa;
+    border:1px solid #521fa0; 
+    text-indent: 10%;
+    color: #521fa0;
+}
+
+.web-design .search-item form button {
+    background-color: #f8f9fa;
+    border:1px solid #521fa0; 
+    color: #521fa0;
+}
+
+.web-design .theLeftSide {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.web-design .theRightSide {
+    margin: 0;
+}
+
+.web-design .aside .Availability {
+    background-color: #f8f9fa;
+    padding: 5% 5% 2% 7%;
+}
+
+.web-design .aside .Availability h5 { 
+    color: #521fa0;
+    font-weight: bold;
+}
+
+.web-design .aside .Availability a {
+    color: #1d2527;
+}
+
+.web-design .aside .Availability a:hover {
+    text-decoration: none;
+    color:#501144;
+    font-weight: bold;
+}
+
+.web-design .web-courses .parent {
+    background-color: #f8f9fa;
+    padding: 3%;
+}
+
+.web-design .web-courses .child {
+    border:1px solid #ccc;
+    box-shadow: 3px 3px 5px #d6a8f1;
+    margin-top: 1%;
+    margin-bottom: 12%;
+    height: 300px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.web-design .web-courses .child:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: none;
+    color: #521fa0;
+    font-size: 1.1em;
+}
+
+.web-design .web-courses .child:hover span {
+    color:#501144;
+    font-size: .8em;
+    position: absolute;
+    bottom: 1%;
+}
+
+.web-design .web-courses .child img {
+    text-align: center;
+    padding: 1%;
+    width: 100%;
+    height: 180px;
+}
+
+.web-design .web-courses .child p {
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.web-design .web-courses .child span {
+    display: block;
+    font-size:.8em;
+    padding: 5%;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}/* end courses pages*/
+
+
+/* start contact us page*/
+.contact .branches a {
+    text-decoration: underline;
+}
+
+.contact h1 {
+    padding-top: 120px ;
+    margin-bottom :30px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.contact h2 ,h3 {
+    margin-top: 30px ;
+    margin-bottom :30px;
+    color: #3f474a;
+    font-weight:bold;
+    }
+
+.contact p {
+    line-height: 1.2;
+}
+
+.branches {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* end contact us page*/
+
+
+/* start register page*/
+.form h1 {
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.form form {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.form form span {
+    color:red;
+}
+
+.form input, textarea, select { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#521fa0;
+    font-weight: bold;
+}
+
+.form  select {
+    padding: 5px;
+}
+
+.form  textarea {
+    color:#521fa0;
+    font-weight: normal;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+}
+
+::-webkit-input-placeholder { font-size: .8em; font-weight: normal; }
+::-moz-placeholder { font-size: .8em; font-weight: normal; } 
+::-ms-input-placeholder { font-size: .8em; font-weight: normal; } 
+input:-moz-placeholder { font-size: .8em; font-weight: normal;}
+
+.form input[type="submit"] {
+    background-color:#521fa0;
+    color: #f8f9fa;
+    font-size: 22px;  
+    font-weight: bold;
+    text-indent: 0;
+    line-height: 1.7;
+    padding: 7px 18px ;
+    margin-top: 30px;
+    border:1px solid  #521fa0;
+    letter-spacing: 3px;
+}
+
+.form form p {
+    color: red;
+    margin-top: 50px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* end register page*/
+
+
+/* start footer*/
+.footer {
+    background-color: #f8f9fa;
+    color: #521fa0;
+    padding: 20px 0 0 20px;
+    text-align: center;
+    height: 100px;
+}
+
+.footer ul {
+    list-style: none;
+    margin-right:  -30px;
+}
+
+.footer .icon ul li {
+    text-align: center;
+    padding-right:  7px;
+    display: inline-block;
+}
+
+.footer .icon ul li a i {
+    color: #521fa0;
+    text-align: center;
+    padding-left: 5%;
+    display: inline-block;
+}
+
+.footer .icon ul li a i:hover {
+color:#501144;
+text-decoration: none;
+}
+/* end footer*/
+
+
+@media (max-width:767px){
+.vl {
+    display: none;
+}
+}
